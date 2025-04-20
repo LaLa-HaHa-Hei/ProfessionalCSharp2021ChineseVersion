@@ -1,27 +1,23 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex 2024.11.23)  19 APR 2025 01:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3 Portable) (preloaded format=pdflatex 2025.4.19)  20 APR 2025 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"D:/MyCode/LaTeX/Professional C# and .NET 2021 Edition ‰∏≠ÊñáËØëÊú¨/professio
-nal_csharp_and_dotnet_2021_zh.tex"
-
-(D:/MyCode/LaTeX/Professional C# and .NET 2021 Edition ‰∏≠ÊñáËØëÊú¨/professiona
-l_csharp_and_dotnet_2021_zh.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
+**./professional_csharp_and_dotnet_2021_zh.tex
+(professional_csharp_and_dotnet_2021_zh.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-03-26>
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex\ctexbook.cls
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex/config\ctexbacken
 d.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
+Package: expl3 2025-03-26 L3 programming layer (loader) 
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/l3backend\l3backend-pd
 ftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count196
-\l__pdf_internal_box=\box52
+File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
 ))
 Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTE
 X)
@@ -38,11 +34,11 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count197
+\l__ctex_tmp_int=\count198
 \l__ctex_tmp_box=\box53
-\l__ctex_tmp_dim=\dimen141
-\g__ctex_section_depth_int=\count198
-\g__ctex_font_size_int=\count199
+\l__ctex_tmp_dim=\dimen146
+\g__ctex_section_depth_int=\count199
+\g__ctex_font_size_int=\count266
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex/config\ctexopts.c
 fg
@@ -56,18 +52,18 @@ Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/base\bk11.clo
 File: bk11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count266
-\c@chapter=\count267
-\c@section=\count268
-\c@subsection=\count269
-\c@subsubsection=\count270
-\c@paragraph=\count271
-\c@subparagraph=\count272
-\c@figure=\count273
-\c@table=\count274
+\c@part=\count267
+\c@chapter=\count268
+\c@section=\count269
+\c@subsection=\count270
+\c@subsubsection=\count271
+\c@paragraph=\count272
+\c@subparagraph=\count273
+\c@figure=\count274
+\c@table=\count275
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen142
+\bibindent=\dimen147
 )
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex/engine\ctex-engin
 e-pdftex.def
@@ -80,7 +76,7 @@ Package: CJKutf8 2021/10/16 4.8.5
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -167,11 +163,11 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ))
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/cjkpunct\CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
-\CJKpunct@cnta=\count275
-\CJKpunct@cntb=\count276
-\CJKpunct@cntc=\count277
-\CJKpunct@cntd=\count278
-\CJKpunct@cnte=\count279
+\CJKpunct@cnta=\count276
+\CJKpunct@cntb=\count277
+\CJKpunct@cntc=\count278
+\CJKpunct@cntd=\count279
+\CJKpunct@cnte=\count280
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201C (decimal 8220)
@@ -189,15 +185,15 @@ File: UTF8.bdg 2021/10/16 4.8.5
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex\ctexspa.def
 File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
-\ccwd=\dimen143
+\ccwd=\dimen148
 \l__ctex_ccglue_skip=\skip51
 )
-\l__ctex_ziju_dim=\dimen144
+\l__ctex_ziju_dim=\dimen149
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/zhnumber\zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count280
-\l__zhnum_tmp_int=\count281
+\l__zhnum_scale_int=\count281
+\l__zhnum_tmp_int=\count282
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/zhnumber\zhnumber-utf8
 .cfg
@@ -274,20 +270,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count282
+\c@section@level=\count283
 )
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count283
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
 )
 (D:\PortableApp\miktex-portable\texmfs\install\tex/generic/stringenc\stringenc.
 sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen145
-\Hy@linkcounter=\count284
-\Hy@pagecounter=\count285
+\@linkdim=\dimen150
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -297,7 +293,7 @@ Now handling font encoding PD1 ...
 (D:\PortableApp\miktex-portable\texmfs\install\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count286
+\Hy@SavedSpaceFactor=\count287
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -311,14 +307,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count287
+\c@Hy@tempcnt=\count288
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen146
+\XeTeXLinkMargin=\dimen151
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -328,9 +324,9 @@ c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count288
-\Field@Width=\dimen147
-\Fld@charsize=\dimen148
+\Fld@menulength=\count289
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -343,9 +339,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count289
-\c@Item=\count290
-\c@Hfootnote=\count291
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/hyperref\hpdftex.def
@@ -356,8 +352,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/rerunfilecheck\rerunfi
 lecheck.sty
@@ -378,96 +374,100 @@ File: UTF8.enc 2021/10/16 4.8.5
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-No file professional_csharp_and_dotnet_2021_zh.aux.
+(professional_csharp_and_dotnet_2021_zh.aux (Part1/chapter12.aux))
 \openout1 = `professional_csharp_and_dotnet_2021_zh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-Package hyperref Info: Link coloring OFF on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Package hyperref Info: Link coloring OFF on input line 7.
+
+(professional_csharp_and_dotnet_2021_zh.out)
+(professional_csharp_and_dotnet_2021_zh.out)
 \@outlinefile=\write3
 \openout3 = `professional_csharp_and_dotnet_2021_zh.out'.
 
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 7.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 9.
+
 
 (D:\PortableApp\miktex-portable\texmfs\install\tex/latex/ctex/fd\c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
@@ -487,35 +487,145 @@ fd}{Unicode.sfd}) [1
 [2]
 \openout2 = `Part1/chapter12.aux'.
 
-
-(D:/MyCode/LaTeX/Professional C# and .NET 2021 Edition ‰∏≠ÊñáËØëÊú¨\Part1/chapt
-er12.tex
+ (Part1/chapter12.tex
 Á¨¨‰∏ÄÁ´†
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 1.
-! You can't use `macro parameter character #' in horizontal mode.
-l.4 ...πâÁâπÊÄßÔºåÂèçÂ∞ÑÔºåÂä®ÊÄÅÁºñÁ®ãÂíåÂÄüÂä©C#
-                                                  9Ê∫êÁîüÊàêÂô®Âú®ÊûÑÂª∫ËøáÁ...
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
 
-? x
- 
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+
+ []
+
+
+
+[3
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+Overfull \hbox (16.3454pt too wide) in paragraph at lines 40--51
+\C70/rm/m/n/10.95/57 ( \C70/rm/m/n/10.95/67 , \C70/rm/m/n/10.95/7a ‡ \C70/rm/m/
+n/10.95/4e -|\C70/rm/m/n/10.95/ff ^^L| \C70/rm/m/n/10.95/4f ` \C70/rm/m/n/10.95
+/5c ^^F \C70/rm/m/n/10.95/4e Ü \C70/rm/m/n/10.95/89 „\OT1/cmr/m/n/10.95 dynamic
+\C70/rm/m/n/10.95/7c { \C70/rm/m/n/10.95/57 ã \C70/rm/m/n/10.95/53   \C70/rm/m/
+n/10.95/51 v \C70/rm/m/n/10.95/4f ^^? \C70/rm/m/n/10.95/75 ( \C70/rm/m/n/10.95/
+89 ƒ \C70/rm/m/n/10.95/52 ^^Y|\C70/rm/m/n/10.95/30 ^^B| \C70/rm/m/n/10.95/4f ` 
+\C70/rm/m/n/10.95/8f ÿ \C70/rm/m/n/10.95/5c ^^F \C70/rm/m/n/10.95/77  \C70/rm/
+m/n/10.95/52 0\OT1/cmr/m/n/10.95 DynamicObject\C70/rm/m/n/10.95/76 Ñ
+ []
+
+
+Overfull \hbox (8.16344pt too wide) in paragraph at lines 40--51
+\C70/rm/m/n/10.95/5b û \C70/rm/m/n/10.95/73 ∞ \C70/rm/m/n/10.95/66 / \C70/rm/m/
+n/10.95/4e ¿ H \C70/rm/m/n/10.95/68 7 \C70/rm/m/n/10.95/5e v \C70/rm/m/n/10.95/
+4e ^^T \C70/rm/m/n/10.95/59 Ç \C70/rm/m/n/10.95/4f U ^^? \C70/rm/m/n/10.95/75 (
+ \C70/rm/m/n/10.95/5b É|\C70/rm/m/n/10.95/30 ^^B| \OT1/cmr/m/n/10.95 DynamicObj
+ect\C70/rm/m/n/10.95/76 Ñ \C70/rm/m/n/10.95/5b û \C70/rm/m/n/10.95/73 ∞ \C70/rm
+/m/n/10.95/4e K ^^@\OT1/cmr/m/n/10.95 ExpandoObject\C70/rm/m/n/10.95/4e _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+
+[4])
+
+[5] (professional_csharp_and_dotnet_2021_zh.aux (Part1/chapter12.aux))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2022/07/14>
+ ***********
+Package rerunfilecheck Info: File `professional_csharp_and_dotnet_2021_zh.out' 
+has not changed.
+(rerunfilecheck)             Checksum: 4215010589A09743B70F63EF50640755;491.
+ ) 
 Here is how much of TeX's memory you used:
- 12014 strings out of 473682
- 217219 string characters out of 5718721
- 584135 words of memory out of 5000000
- 34873 multiletter control sequences out of 15000+600000
- 573949 words of font info for 91 fonts, out of 8000000 for 9000
+ 12572 strings out of 469959
+ 226747 string characters out of 5469332
+ 597720 words of memory out of 5000000
+ 38972 multiletter control sequences out of 15000+600000
+ 664900 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,5n,88p,792b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,5n,83p,725b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
+imhei.ttf><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
+/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
+/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun
+.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Font
+s/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIND
+OWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc>
+<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
+sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
+onts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/W
+INDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.t
+tc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/
+simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOW
+S/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C
+:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsu
+n.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fon
+ts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIN
+DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
+><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
+msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/
+Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
+WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
+ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts
+/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDO
+WS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><
+C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sims
+un.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fo
+nts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WI
+NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.tt
+c><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
+imsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
+/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
+/WINDOWS/Fonts/simsun.ttc> <D:\PortableApp\miktex-portable\texmfs/data\fonts/pk
+/ljfour/jknappen/ec/dpi657\tcrm1000.pk><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
+/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
+/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei
+.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Font
+s/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WIND
+OWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf>
 <C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/sim
 hei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/F
-onts/simhei.ttf><D:/PortableApp/miktex-portable/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><D:/PortableApp/miktex-portable/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmr10.pfb>
-Output written on professional_csharp_and_dotnet_2021_zh.pdf (2 pages, 42228 by
-tes).
+onts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/P
+ortableApp/miktex-portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><D:/PortableApp/miktex-portable/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><D:/PortableApp/miktex-portable/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmsl10.pfb><D:/PortableApp/miktex-portable/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb>
+Output written on professional_csharp_and_dotnet_2021_zh.pdf (5 pages, 592697 b
+ytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
