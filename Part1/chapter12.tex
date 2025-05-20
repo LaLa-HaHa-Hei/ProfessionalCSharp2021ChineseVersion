@@ -45,7 +45,7 @@
 \\ \\
 这一章的第二个方面就是动态编程，自从dynamic类型被添加到C\#4，动态编程就成为C\#语言的一部分。虽然C\#是一个静态类型语言，但动态编程的加入给了C\#语言从C\#内部调用脚本函数的能力。
 \\ \\
-在本章中，你将了解dynamic类型及其使用规则。你还将看到DynamicObject的实现是什么样并且如何使用它。DynamicObject的实现之一ExpandoObject也将被涵盖。
+在本章中，你将了解 dynamic 类型及其使用规则。你还将看到 DynamicObject 的实现是什么样并且如何使用它。DynamicObject 的实现之一 ExpandoObject 也将被涵盖。
 \\ \\
 本章的第三个大方面是一个C\#9的增强——源生成器。使用源生成器，代码可以在你开始构建流程是被生成。你写的源代码可以被增强，同时还可以利用其他数据源来生成C\#源代码。在本章中，你将看到源生成器检查特性，从而在编译时生成代码，而无需在运行时依赖反射。
 
@@ -55,3 +55,61 @@
 .NET还允许你去定义特性。默认情况下自定义不会对编译过程有任何影响，因为编译器本身并不会识别它们（一会你将看到源生成器，在那儿自定义特性对编译过程有影响）。当这些特性应用于程序元素时，它们会被当作元数据输出到编译后的程序集中。
 \\ \\
 单独来看，这些元数据可能对文档编写有帮助，但让特性变得真正强大的是：通过使用反射，你的代码可以在运行时读取这些元数据并做出相应的决策。这意味着你定义的自定义特性可以直接影响你代码的运行方式。例如，对于自定义权限类，自定义特性可以被用于去允许声明式代码访问安全检查，自定义特性还可以去关联信息和程序元素，以便之后被测试工具使用，或者在开发允许加载插件或模块的可扩展框架时使用。
+
+\section{编写自定义特性}
+为了理解如何编写自定义特性，了解当编译器遇到一个你代码中的元素，并且这个元素带有一个被实现了的自定义特性时做了什么是有用的。假定你有一个C\#属性定义如下：
+\begin{verbatim}
+    [FieldName("SocialSecurityNumber")]
+        public string SocialSecurityNumber
+        {
+            get {
+                // ...
+\end{verbatim}
+编译器期望找到一个带有这个名字的类，并且期望这个类直接或间接继承自 System.Attribute。编译器还期望这个类包括了控制特性使用的信息。特别的，这个特性类需要具体说明一下内容：
+\begin{itemize}
+    \item 可以应用该特性的程序元素的类型（类、结构体、属性、方法等）
+    \item 将特性多次应用于同一程序元素是否合法
+    \item 当特性应用于类或接口时，是否由派生类和子接口继承
+    \item 特性用到的强制和可选参数
+\end{itemize}
+如果编译器不能找到一个相应的特性类或找到了但是你使用特性的方式不符合特性类的信息，编译器将引发编译错误。
+\\ \\
+继续这个例子，假定你已经定义了 FieldName 特性如下：
+\begin{verbatim}
+    [AttributeUsage(AttributeTargets.Property,
+        AllowMultiple=false, Inherited=false)]
+    public class FieldNameAttribute: Attribute
+    {
+        private string _name;
+        public FieldNameAttribute(string name) => _name = name;
+    }
+\end{verbatim}
+下一节将讨论这个定义中的每一个元素
+
+\subsection{详述 AttributeUsage 特性}
+首先要注意的是特性类被标记有一个特性——System.AttributeUsage 特性。这是一个被微软定义的特性，用来给编译器提供特殊支持。AttributeUsage 的首要目的是去识别可以应用你自定义特性的程序元素的类型。这个信息被 AttributeUsage 的第一个参数提供。这个参数是强制性的，并且是可枚举类型：AttributeTargets 。在之前的例子中，你已经指示了 FieldName 特性仅仅可以被应用与属性，这是好的，因为这正是你在前面的代码片段中应用它的地方。AttributeTargets 枚举类型定义了一些成员去应用特性到程序集，类，构造函数，字段，事件，方法，接口，结构体，返回值等等。
+\\ \\
+注意，当应用一个特性到你的程序元素时，你直接将特性放到元素前的方括号中。然而，之前列表中的两个值和任何程序元素都没有关联：Assembly 和 Module。特性可以作为一个整体应用于程序集或模块，而不是你代码中的元素；在这个情况下，特性可以被放到你源代码的任何地方，但是他必须有 assembly 或 module 前缀：
+\begin{verbatim}
+    [assembly:SomeAssemblyAttribute(Parameters)]
+    [module:SomeAssemblyAttribute(Parameters)]
+\end{verbatim}
+当指定有效的目标元素给自定义特性时，你可以用位运算符 OR 组合这些值。例如，如果你想去指示你的 FieldName 特性可以被应用到属性和字段上，你将使用下面代码：
+\begin{verbatim}
+    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field,
+        AllowMultiple=false, Inherited=false)]
+    public class FieldNameAttribute: Attribute
+\end{verbatim}
+你也可以用 AttributeTargets.All 去表明你的特性可以被应用到所有程序元素类型。AttributeUsage 特性还包含了两个其他参数：AllowMultiple 和 Inherited。它们被规定使用 <ParameterName>=<ParameterValue> 语法而不是仅仅指定这些参数的值。这些参数是可选的——你可以省略他们。
+\\ \\
+AllowMultiple 参数表明了是否一个特性可以被多于一次的应用与同一项。当它被设为 false 时，编译器应该引发错误，当看到类似这样的情况：
+\begin{verbatim}
+    [FieldName("SocialSecurityNumber")]
+    [FieldName("NationalInsuranceNumber")]
+    public string SocialSecurityNumber
+    {
+        // ...
+\end{verbatim}
+如果 Inherited 参数被设为 true，应用于类或接口的特性会自动应用于所有派生类或子接口。如果特性被应用与一个方法或属性，他将会自动应用与任何对于那个方法或属性的重写（override），以此类推。
+
+\subsection{详述特性参数}
