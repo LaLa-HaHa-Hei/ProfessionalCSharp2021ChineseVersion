@@ -1,6 +1,6 @@
 INFO:  latexindent.pl version 3.24.5, 2025-03-13, a script to indent .tex files
        latexindent.pl lives here: D:/PortableApp/miktex-portable/texmfs/install/scripts/latexindent/
-       Tue May  6 16:59:32 2025
+       Tue May 20 22:37:47 2025
        Filename: d:/Code/LaTeX/ProfessionalCSharp2021ChineseVersion/Part1/__latexindent_temp_chapter12.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
@@ -8,18 +8,18 @@ INFO:  Processing switches:
 INFO:  Directory for backup files and log file d:\Code\LaTeX\ProfessionalCSharp2021ChineseVersion\indent.log:
        d:\Code\LaTeX\ProfessionalCSharp2021ChineseVersion\
 INFO:  Perl modules are being loaded from the following directories:
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/lib/FindBin.pm
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/vendor/lib/YAML/Tiny.pm
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/lib/File/Copy.pm
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/lib/File/Basename.pm
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/lib/Getopt/Long.pm
-       D:/PortableApp/strawberry-perl-5.40.0.1-64bit-portable/perl/vendor/lib/File/HomeDir.pm
+       D:/PortableApp/strawberry-perl/perl/lib/FindBin.pm
+       D:/PortableApp/strawberry-perl/perl/vendor/lib/YAML/Tiny.pm
+       D:/PortableApp/strawberry-perl/perl/lib/File/Copy.pm
+       D:/PortableApp/strawberry-perl/perl/lib/File/Basename.pm
+       D:/PortableApp/strawberry-perl/perl/lib/Getopt/Long.pm
+       D:/PortableApp/strawberry-perl/perl/vendor/lib/File/HomeDir.pm
 INFO:  LatexIndent perl modules are being loaded from, for example:
        D:/PortableApp/miktex-portable/texmfs/install/scripts/latexindent/LatexIndent/Document.pm
 INFO:  YAML settings read: defaultSettings.yaml
        Reading defaultSettings.yaml from D:/PortableApp/miktex-portable/texmfs/install/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
-       Home directory is D:\PortableApp\strawberry-perl-5.40.0.1-64bit-portable\data
+       Home directory is D:\PortableApp\strawberry-perl\data
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  YAML settings read: -y switch
