@@ -1,26 +1,50 @@
 \documentclass[11pt,twoside,a4paper]{ctexbook}
 
 \usepackage{hyperref} % 书签
+\usepackage{parskip} % 段落间垂直距离
+\usepackage{enumitem} % 用于自定义列表环境
+\usepackage{etoolbox} % 对环境进行钩子操作（verbatim）
 
 \setlength{\parindent}{0pt} % 缩进为0
+\setlength{\parskip}{1em} % 设置段落之间的间距为1em
+
+% 列表无额外间距
+\setlist[itemize]{nosep}
+% verbatim 环境无段落间距
+\AtBeginEnvironment{verbatim}{\setlength{\parskip}{0pt}}
 
 \begin{document}
 
-\tableofcontents
+% \tableofcontents % 目录
 
 \part{C\#语言}
-\include{Part1/chapter1}
-\include{Part1/chapter2}
-\include{Part1/chapter3}
-\include{Part1/chapter4}
-\include{Part1/chapter5}
-\include{Part1/chapter6}
-\include{Part1/chapter7}
-\include{Part1/chapter8}
-\include{Part1/chapter9}
-\include{Part1/chapter10}
-\include{Part1/chapter11}
+% \begin{itemize}
+%     \item 第一章：.NET 应用程序和工具
+%     \item 第二章：核心 C\#
+%     \item 第三章：类，记录，结构体和元组
+%     \item 第四章：用 C\# 面向对象编程
+%     \item 第五章：运算符与类型转换
+%     \item 第六章：数组
+%     \item 第七章：委托，Lambda 表达式和事件
+%     \item 第八章：集合
+%     \item 第九章：语言集成查询（LINQ）
+%     \item 第十章：错误和异常
+%     \item 第十一章：任务和异步编程
+%     \item 第十二章：反射，元数据和源生成器
+%     \item 第十三章：托管与非托管内存
+% \end{itemize}
+% \include{Part1/chapter1}
+% \include{Part1/chapter2}
+% \include{Part1/chapter3}
+% \include{Part1/chapter4}
+% \include{Part1/chapter5}
+% \include{Part1/chapter6}
+% \include{Part1/chapter7}
+% \include{Part1/chapter8}
+% \include{Part1/chapter9}
+% \include{Part1/chapter10}
+% \include{Part1/chapter11}
 \include{Part1/chapter12}
-\include{Part1/chapter13}
+% \include{Part1/chapter13}
 
 \end{document}
