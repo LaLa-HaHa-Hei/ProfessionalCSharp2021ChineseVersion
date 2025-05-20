@@ -15,4 +15,5 @@
 \contentsline {section}{\numberline {12.2}自定义特性}{29}{section.12.2}%
 \contentsline {section}{\numberline {12.3}编写自定义特性}{30}{section.12.3}%
 \contentsline {subsection}{\numberline {12.3.1}详述 AttributeUsage 特性}{31}{subsection.12.3.1}%
-\contentsline {subsection}{\numberline {12.3.2}详述特性参数}{32}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.2}详述特性的参数}{32}{subsection.12.3.2}%
+\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}托管与非托管内存}{33}{chapter.13}%
