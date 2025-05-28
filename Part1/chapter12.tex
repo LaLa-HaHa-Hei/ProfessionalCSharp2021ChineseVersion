@@ -88,7 +88,7 @@
 \subsubsection{详述 AttributeUsage 特性}
 首先要注意的是特性类被标记有一个特性——System.AttributeUsage 特性。这是一个被微软定义的特性，用来给编译器提供特殊支持。AttributeUsage 的首要目的是去识别可以应用你自定义特性的程序元素的类型。这个信息被 AttributeUsage 的第一个参数提供。这个参数是强制性的，并且是可枚举类型：AttributeTargets 。在之前的例子中，你已经指示了 FieldName 特性仅仅可以被应用与属性，这是好的，因为这正是你在前面的代码片段中应用它的地方。AttributeTargets 枚举类型定义了一些成员去应用特性到程序集，类，构造函数，字段，事件，方法，接口，结构体，返回值等等。
 
-注意，当应用一个特性到你的程序元素时，你直接将特性放到元素前的方括号中。然而，之前列表中的两个值和任何程序元素都没有关联：Assembly 和 Module。特性可以作为一个整体应用于程序集或模块，而不是你代码中的元素；在这个情况下，特性可以被放到你源代码的任何地方，但是他必须有 assembly 或 module 前缀：
+注意，当应用一个特性到你的程序元素时，你直接将特性放到元素前的方括号中。不过，之前列表中有两个值和任何程序元素都没有关联：Assembly 和 Module。特性可以作为一个整体应用于程序集或模块，而不是你代码中的元素；在这个情况下，特性可以被放到你源代码的任何地方，但是他必须有 assembly 或 module 前缀：
 \begin{verbatim}
     [assembly:SomeAssemblyAttribute(Parameters)]
     [module:SomeAssemblyAttribute(Parameters)]
@@ -100,7 +100,7 @@
         AllowMultiple=false, Inherited=false)]
     public class FieldNameAttribute: Attribute
 \end{verbatim}
-你也可以用 AttributeTargets.All 去表明你的特性可以被应用到所有程序元素类型。AttributeUsage 特性还包含了两个其他参数：AllowMultiple 和 Inherited。它们被规定使用 <ParameterName>=<ParameterValue> 语法而不是仅仅指定这些参数的值。这些参数是可选的——你可以省略他们。
+你也可以用 AttributeTargets.All 去表明你的特性可以被应用到所有程序元素类型。AttributeUsage 特性还包含了两个其他参数：AllowMultiple 和 Inherited。它们被规定使用 \textless ParameterName\textgreater =\textless ParameterValue\textgreater\ 语法而不是仅仅指定这些参数的值。这些参数是可选的——你可以省略他们。
 
 AllowMultiple 参数表明了是否一个特性可以被多于一次的应用与同一项。当它被设为 false 时，编译器应该引发错误，当看到类似这样的情况：
 \begin{verbatim}
@@ -110,7 +110,7 @@ AllowMultiple 参数表明了是否一个特性可以被多于一次的应用与
     {
         // ...
 \end{verbatim}
-如果 Inherited 参数被设为 true，应用于类或接口的特性会自动应用于所有派生类或子接口。如果特性被应用与一个方法或属性，他将会自动应用与任何对于那个方法或属性的重写（override），以此类推。
+如果 Inherited 参数被设为 true，应用于类或接口的特性会自动应用于所有派生类或子接口。如果特性被应用与一个方法或属性，他将会自动应用于任何对那个方法或属性的重写（override），以此类推。
 
 \subsubsection{详述特性的参数}
 这一部分演示了你如何给自定义特性指定参数。当编译器遇到如下的语句时，它会检查传递给特性的参数——一个字符串——并且寻找该特性中能精确匹配这些参数的构造函数。
@@ -135,7 +135,7 @@ AllowMultiple 参数表明了是否一个特性可以被多于一次的应用与
     {
         // ...
 \end{verbatim}
-在这个例子中，对于第二个参数，编译器识别 <ParameterName>=<ParameterValue> 语法，并且不会试图去匹配这个参数到 FieldNameAttribute 构造函数。相反，它寻找一个对应名字的 public 属性或字段（公共字段并不被认为是好的编程实践，所以你通常使用属性）用来设置这个参数的值。如果你想让之前的代码工作，你必须添加一下代码到 FieldNameAttribute：
+在这个例子中，对于第二个参数，编译器识别 \textless ParameterName\textgreater =\textless ParameterValue\textgreater\  语法，并且不会试图去匹配这个参数到 FieldNameAttribute 构造函数。相反，它寻找一个对应名字的 public 属性或字段（公共字段并不被认为是好的编程实践，所以你通常使用属性）用来设置这个参数的值。如果你想让之前的代码工作，你必须添加一些代码到 FieldNameAttribute：
 \begin{verbatim}
     [AttributeUsage(AttributeTargets.Property,
         AllowMultiple=false, Inherited=false)]
@@ -147,6 +147,7 @@ AllowMultiple 参数表明了是否一个特性可以被多于一次的应用与
         {
             _fieldName = fieldName;
         }
+        // ...
     }
 \end{verbatim}
 

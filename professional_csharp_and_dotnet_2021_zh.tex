@@ -1,4 +1,5 @@
 \documentclass[11pt,twoside,a4paper]{ctexbook}
+\setcounter{tocdepth}{1}  % 1对应section级别的目录
 
 \usepackage{hyperref} % 书签
 \usepackage{parskip} % 段落间垂直距离
@@ -15,7 +16,13 @@
 
 \begin{document}
 
-\tableofcontents % 目录
+% \tableofcontents % 目录
+
+\frontmatter        % 切换为罗马数字页码 i, ii, iii...
+
+\include{Introduction}
+
+\mainmatter          % 开始正文，页码切换为阿拉伯数字
 
 \part{C\#语言}
 % \begin{itemize}

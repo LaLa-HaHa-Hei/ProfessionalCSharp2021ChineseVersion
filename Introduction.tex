@@ -1,0 +1,42 @@
+\chapter*{Introduction}
+\textbf{尽管} .NET 在 2000 年被发布，但它没有变成一个过时的技术。相反，.NET 对开发者的吸引力持续增长，自从它开源并且不仅可以在 Windows 使用还能在 Linux 上使用。.NET 还可以在客户端的浏览器中运行——不需要下载扩展——通过使用 WebAssembly 标准。
+
+随着对 C\# 和 .NET 的新增强功能不断推出，其关注点不仅在于性能提升，还在于易用性。.NET 越来越成为新开发者的选择。
+
+C\# 对长期开发者同样有吸引力。每年，Stack Overflow 询问开发者他们的最爱，最害怕和最想要的变成语言和框架。C\# 已经持续几年在“最爱的语言”排列前 10。ASP.NET Core 现在是“最爱的web框架”首位。.NET Core 在“最爱的其他框架/库/工具”类别中第一。详见 \url{https://insights.stackoverflow.com/survey/2020}
+
+当你使用 C\# 和 ASP.NET Core，你可以创建 web 应用程序和服务（包括微服务），运行在 Windows，Linux 和 Mac 上。你可以用 Windows 运行时去创建本地 Windows 程序，使用 C\#，XAML 和 .NET。你可以创建类库，它可以在 ASP.Net Core，Windows 程序和 .Net MAUI 中共享。
+
+大多数本书中的例子是构建和运行在 Windows 或 Linux 系统上的。例外情况是仅在 Windows 平台上运行的 Windows 应用程序示例。你可以使用 Visual Studio，Visual Studio Code，或 Visual Studio for the Mac 作为开发环境；只有 Windows 程序示例需要 Visual Studio。
+
+\section*{.NET 的世界}
+.NET 有长的历史；第一个版本被发布于 2002 年。完全重写的新一代的 .NET（.NET Core 1.0 在 2016 年）是非常年轻的。最近，很多来自旧 .NET 版本的功能已经被带到了 .NET Core 去简化迁移体验。
+
+当创建新的应用程序，没有理由不迁移到新的 .NET 版本。旧的程序是否应该呆在旧版本的 .NET 还是迁移到新版本取决于使用的功能，迁移的难度和迁移后你能获得什么优势。这个问题最好的选择需要通过逐个应用程序的分析来考虑。
+
+新 .NET 提供了容易的方式去创建 Windows 和 web 程序和服务。你可以创建微服务在 Kubernetes 集群中的 Docker 容器中运行；创建 web 程序返回 HTML，JavaScript 和 CSS；创建 web 程序返回 HTML，JavaScript 和 .NET 二进制文件，他使用 WebAssembly 以安全且标准的方式运行在客户端浏览器里。你可以以传统的方式创建 Windows 程序使用 WPF 和 Windows Forms 并利用现代的 XAML 功能和控件，它们支持用 WinUI 实现流畅的设计，以及通过.NET MAUI 开发移动应用程序。
+
+.NET 使用现代模式。依赖注入被构建进核心服务，比如 ASP.NET Core 和 EF Core，这不仅使单元测试更容易，而且允许开发人员容易的增强和更改这些技术的功能。
+
+.NET 能运行在多平台上。除了 Windows 和 macOS，许多 Linux 环境也被支持，比如 Alpine，CentOS，Debian，Febora，openSUSE，Red Hat，SLES 和 Ubuntu。
+
+.NET 是开源的（\url{https://github.com/dotnet}）并且免费获得。你可以找到 C\# 编译器的会议记录（\url{https://github.com/dotnet/csharplang}），C\# 编译器的源代码（\url{https://github.com/dotnet/Roslyn}），.NET 运行时和类库的源代码（\url{https://github.com/dotnet/runtime}），和 ASP.NET Core的源代码（\url{https://github.com/dotnet/aspnetcore}），包括 Razor Pages，Blazor 和 SignalR。
+
+这里是一些对于新 .NEt 功能特点的总结：
+\begin{itemize}
+    \item .NET 是开源的。
+    \item .NET 使用现代模式。
+    \item .NET 支持在多平台上开发
+    \item ASP.NET Core 可以允许在 Windows 和 Linux 上。
+\end{itemize}
+
+\section*{C\# 的世界}
+当 C\# 在 2002 年被发布，他是一种为了 .NET Framework 开发的语言。C\# 的设计思想来自 C++，Java 和 Pascal。Anders Hejlsberg 从 Borland 来到微软并带来了Delphi语言开发的经验。在 Microsoft，Hejlsberg 工作于 Microsoft 版的 Java，叫做 J++，在创造 C\# 前。
+
+\textbf{注意} 今天，Anders Hejlsberg 已经转移工作到 TypeScript（ 虽然他依然影响 C\#），并且 Mads Torgersen 是 C\# 的项目领头人。C\# 的改进在 \url{https://github.com/dotnet/csharplang} 上公开讨论，而且你可以阅读 C\# 语言的建议和会议记录。你也可以提交自己的 C\# 建议。
+
+C\# 最初不仅是一门面向对象的通用编程语言，更是一种基于组件的编程语言，支持属性、事件、特性（注解）和构建程序集（包含元数据的二进制文件）。
+
+随着时间的推移，C\# 被增强，通过加入泛型、语言集成查询（LINQ）、lambda 表达式、动态特性以及更简便的异步编程。C\# 不是一个简单的编程语言，因为它提供了很多特功能性，但它也在持续发展，不断加入实用的新功能。由此，C\# 不仅仅是一门面向对象或基于组件的语言；他还包含了函数式编程的理念——这些对于开发各类应用的通用语言来说都具有实用价值。
+
+如今，每年都会发布一个新版本的 C\#，C\# 8 加入了可空引用类型，C\# 9加入了 record 类型等等，C\# 10 和 .NET 6 在 2021 年发布，C\# 11 和 .NET 7 在 2022 年发布。因为如今变更频繁，查看本书的 GitHub 仓库（详见“源代码”一节）以获取持续更新。
