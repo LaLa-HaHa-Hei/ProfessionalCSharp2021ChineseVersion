@@ -45,3 +45,8 @@ C\# 最初不仅是一门面向对象的通用编程语言，更是一种基于�
 每年，一个新版本的 C\# 被发布，伴随着许多新功能特性可以获得。最新的版本包括很多功能特性：可空引用类型，去减少 NullableReferenceException 异常，作为替换，让编译器提供更多帮助；提高生成效率的功能，如索引（indices）和范围（ranges）；switch 表达式，它可以让 switch 语句显得过时；using 声明等简化语法；模式匹配的提升。顶级语句允许使小型应用程序减少源代码的行数，记录类型（record）——一种类，可让编译器自动生成用于相等性比较、解构和 with 表达式的模板代码。代码生成器允许自动创建代码当编译器允许。所有这些新特性都在本书中涵盖。
 
 \section*{ASP.NET CORE 的新东西}
+ASP.NET Core 现在包含新技术用于创建 web 应用：Blazor Server 和 Blazor WebAssembly。使用 Blazor，你有一个用 C\# 代码编写客户端和服务端的全栈选择。使用 Blazor Server，你创建的包含 HTML 和 C\# 代码的 Razor 组件会在服务器上运行。使用 Blazor WebAssembly，用 C\# 和 HTML 编写的 Razor 组件会在客户端运行——借助 HTML5 标准的 WebAssembly 技术，该技术允许在浏览器中运行二进制代码，且为所有现代 Web 浏览器所支持。
+
+对于创建服务，你现在可以使用 ASP.NET Core 的 gRPC，实现服务间的二进制通信。如果需要传输大量数据，这是服务到服务通信的绝佳选择，以减少带宽需要，同时降低 CPU 和内存占用。
+
+\section{Windows 的新东西}
