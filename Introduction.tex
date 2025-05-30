@@ -50,6 +50,14 @@ ASP.NET Core 现在包含新技术用于创建 web 应用：Blazor Server 和 Bl
 对于创建服务，你现在可以使用 ASP.NET Core 的 gRPC，实现服务间的二进制通信。如果需要传输大量数据，这是服务到服务通信的绝佳选择，以减少带宽需要，同时降低 CPU 和内存占用。
 
 \section*{Windows 的新东西}
-对于给 Windows 开发程序，一个新技术结合了通用 Windows 平台和桌面应用的功能：WinUI 3。WinUI 是 Windows 10 应用的原生 UI 平台。使用 WinUI3，你可以用包含编译绑定的现代的 XAML 代码去创建桌面应用。新的控件和 Microsoft 的流畅设计系统是可获得的。这些控件不会像以前的通用 Windows 平台（UWP）那样在 Windows Runtime 上提供，这些控件独立于 Windows 10 版本开发的，允许您在 Windows 10 1809 及以上版本中使用最新控件。正如 WinUI 提供的路线图所示，这些新控件也将可用于 WPF 应用程序。
+对于给 Windows 开发程序，一个新技术结合了通用 Windows 平台和桌面应用的功能：WinUI 3。WinUI 是 Windows 10 应用的原生 UI 平台。使用 WinUI3，你可以用包含编译绑定的现代的 XAML 代码去创建桌面应用。新的控件和 Microsoft 的流畅设计系统是可获得的。这些控件不会像以前的通用 Windows 平台（UWP）那样在 Windows Runtime 上被提供，这些控件独立于 Windows 10 版本开发的，允许您在 Windows 10 1809 及以上版本中使用最新控件。正如 WinUI 提供的路线图所示，这些新控件也将可用于 WPF 应用程序。
 
 \section*{你需要用什么编写和运行 C\# 代码}
+.NET 运行在 Windows，Linux 和 Mac 操作系统上。你可以创建和构建你的程序在任何浙西平台上使用 Visual Studio Code（\url{https://code.visualstudio.com}）。你可以构建并运行大部分例子在 Windows 或 Linux 上，并使用你选择的 .NET 开发工具。只有 WinUI 程序需要你去使用 Windows 平台，并且，Visual Studio 是最好的选择。构建并运行 WinUI 程序需要的最小版本是 16.10。
+
+当使用 .NET CLI 和 Azure CLI时，命令行承担了一个重要的部分；你可以使用新的 Windows Terminal。在最新的 Windows 10 中，这个终端成为 Windows 的一部分被提供。在老版本上，你可以通过 Microsoft Store 下载它。
+
+大部分 .NET 开发者使用 Windows 平台作为开发机器。当使用 Windows 对于 Linux 的子系统（WSL 2）时，你可以构建并运行你的 .NET 程序在 Linux 环境，你还可以从你的 Windows 环境下载不同的 Linux 发行版，并访问相同的文件。Visual Studio 甚至允许调试你的 .NET 程序，当它们运行在 WSL 2 上 Linux 环境时。
+
+在本书的一些示例中，Microsoft Azure 被展示为一个可选的托管环境，可用于运行 web 应用程序、使用 Azure Functions，以及使用 Entity Framework Core 去访问 SQL Server 和 Azure Cosmos DB。
+为此，你可以使用 Microsoft Azure 提供的免费试用服务；访问 \url{https://azure.microsoft.com/free} 进行注册。
