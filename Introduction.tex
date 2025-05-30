@@ -1,4 +1,4 @@
-\chapter*{INTRODUCTION}
+\chapter*{引言}
 \textbf{尽管} .NET 在 2000 年被发布，但它没有变成一个过时的技术。相反，.NET 对开发者的吸引力持续增长，自从它开源并且不仅可以在 Windows 使用还能在 Linux 上使用。.NET 还可以在客户端的浏览器中运行——不需要下载扩展——通过使用 WebAssembly 标准。
 
 随着对 C\# 和 .NET 的新增强功能不断推出，其关注点不仅在于性能提升，还在于易用性。.NET 越来越成为新开发者的选择。
@@ -22,7 +22,7 @@ C\# 对长期开发者同样有吸引力。每年，Stack Overflow 询问开发�
 
 .NET 是开源的（\url{https://github.com/dotnet}）并且免费获得。你可以找到 C\# 编译器的会议记录（\url{https://github.com/dotnet/csharplang}），C\# 编译器的源代码（\url{https://github.com/dotnet/Roslyn}），.NET 运行时和类库的源代码（\url{https://github.com/dotnet/runtime}），和 ASP.NET Core的源代码（\url{https://github.com/dotnet/aspnetcore}），包括 Razor Pages，Blazor 和 SignalR。
 
-这里是一些对于新 .NEt 功能特点的总结：
+这里是一些对于新 .NET 功能特点的总结：
 \begin{itemize}
     \item .NET 是开源的。
     \item .NET 使用现代模式。
@@ -33,16 +33,18 @@ C\# 对长期开发者同样有吸引力。每年，Stack Overflow 询问开发�
 \section*{C\# 的世界}
 当 C\# 在 2002 年被发布，他是一种为了 .NET Framework 开发的语言。C\# 的设计思想来自 C++，Java 和 Pascal。Anders Hejlsberg 从 Borland 来到微软并带来了Delphi语言开发的经验。在 Microsoft，Hejlsberg 工作于 Microsoft 版的 Java，叫做 J++，在创造 C\# 前。
 
+\begin{framed}
 \textbf{注意} 今天，Anders Hejlsberg 已经转移工作到 TypeScript（ 虽然他依然影响 C\#），并且 Mads Torgersen 是 C\# 的项目领头人。C\# 的改进在 \url{https://github.com/dotnet/csharplang} 上公开讨论，而且你可以阅读 C\# 语言的建议和会议记录。你也可以提交自己的 C\# 建议。
+\end{framed}
 
 C\# 最初不仅是一门面向对象的通用编程语言，更是一种基于组件的编程语言，支持属性、事件、特性（注解）和构建程序集（包含元数据的二进制文件）。
 
 随着时间的推移，C\# 被增强，通过加入泛型、语言集成查询（LINQ）、lambda 表达式、动态特性以及更简便的异步编程。C\# 不是一个简单的编程语言，因为它提供了很多特功能性，但它也在持续发展，不断加入实用的新功能。由此，C\# 不仅仅是一门面向对象或基于组件的语言；他还包含了函数式编程的理念——这些对于开发各类应用的通用语言来说都具有实用价值。
 
-如今，每年都会发布一个新版本的 C\#，C\# 8 加入了可空引用类型，C\# 9加入了记录类型（records）等等，C\# 10 和 .NET 6 在 2021 年发布，C\# 11 和 .NET 7 在 2022 年发布。因为如今变更频繁，查看本书的 GitHub 仓库（详见“源代码”一节）以获取持续更新。
+如今，每年都会发布一个新版本的 C\#，C\# 8 加入了 可空引用类型，C\# 9加入了 records 等等，C\# 10 和 .NET 6 在 2021 年发布，C\# 11 和 .NET 7 在 2022 年发布。因为如今变更频繁，查看本书的 GitHub 仓库（详见“源代码”一节）以获取持续更新。
 
 \section*{C\# 的新东西}
-每年，一个新版本的 C\# 被发布，伴随着许多新功能特性可以获得。最新的版本包括很多功能特性：可空引用类型，去减少 NullableReferenceException 异常，作为替换，让编译器提供更多帮助；提高生成效率的功能，如索引（indices）和范围（ranges）；switch 表达式，它可以让 switch 语句显得过时；using 声明等简化语法；模式匹配的提升。顶级语句允许使小型应用程序减少源代码的行数，记录类型（record）——一种类，可让编译器自动生成用于相等性比较、解构和 with 表达式的模板代码。代码生成器允许自动创建代码当编译器允许。所有这些新特性都在本书中涵盖。
+每年，一个新版本的 C\# 被发布，伴随着许多新功能特性可以获得。最新的版本包括很多功能特性：可空引用类型，去减少 NullableReferenceException 异常，作为替换，让编译器提供更多帮助；提高生成效率的功能，如 indices 和 ranges；switch 表达式，它可以让 switch 语句显得过时；using 声明等简化语法；模式匹配的提升。顶级语句允许使小型应用程序减少源代码的行数，record——一种 class，可让编译器自动生成用于相等性比较、解构和 with 表达式的模板代码。代码生成器允许自动创建代码当编译器允许。所有这些新特性都在本书中涵盖。
 
 \section*{ASP.NET CORE 的新东西}
 ASP.NET Core 现在包含新技术用于创建 web 应用：Blazor Server 和 Blazor WebAssembly。使用 Blazor，你有一个用 C\# 代码编写客户端和服务端的全栈选择。使用 Blazor Server，你创建的包含 HTML 和 C\# 代码的 Razor 组件会在服务器上运行。使用 Blazor WebAssembly，用 C\# 和 HTML 编写的 Razor 组件会在客户端运行——借助 HTML5 标准的 WebAssembly 技术，该技术允许在浏览器中运行二进制代码，且为所有现代 Web 浏览器所支持。
@@ -61,3 +63,31 @@ ASP.NET Core 现在包含新技术用于创建 web 应用：Blazor Server 和 Bl
 
 在本书的一些示例中，Microsoft Azure 被展示为一个可选的托管环境，可用于运行 web 应用程序、使用 Azure Functions，以及使用 Entity Framework Core 去访问 SQL Server 和 Azure Cosmos DB。
 为此，你可以使用 Microsoft Azure 提供的免费试用服务；访问 \url{https://azure.microsoft.com/free} 进行注册。
+
+\section*{本书涵盖了什么}
+本书包括了一下四个主要部分：
+\begin{itemize}
+    \item C\# 语言
+    \item 使用 .NET 中基础的类库
+    \item 开发 web 应用和服务
+    \item 开发 Windows 应用
+\end{itemize}
+让我们进入不同的部分和所有章节了解详情。
+
+\section*{第一部分，“C\# 语言”}
+本书的第一部分涵盖了 C\# 编程语言的所有方面。你将学习语法选项，并了解 C\# 语法如何从 .NET 中集成类和接口。这部分提供了一个 C\# 语言的好基础。本节不假定您了解任何特定的编程语言，但是它假设你是一位经验丰富的程序员。在深入了解 C\# 的高级功能之前，您首先要了解 C\# 的基本语法和数据类型。
+\begin{itemize}
+    \item 第一章，“.NET 应该程序和工具”，包括了你创建 .NET 程序需要的知识。你学习 .NET CLI 并创建一个 Hello World 程序，使用 C\# 9 的顶级语句。
+    \item 第二章，“C\# 核心”，深入了解 C\# 的核心特性，给你关于顶级语句的细节和信息，在声明变量和数据类型方面。
+    \item 第三章，“Classes、Records、Structs 和 Tuples”，给你创建引用或值类型的信息，创建和使用 tuples，并使用 C\# 9 对创建和使用 records 的增强。
+    \item 第四章，“用 C\# 面向对象编程”，深入 C\# 的面向对象技术细节，演示用于面向对象的所有的 C\# 关键字。
+    \item 第五章，“运算符与类型转换”，解释了 C\# 运算符，你还将学习如何为自定义类型重载标准运算符。
+    \item 第六章，“数组”，不会止步于简单的数组；你将学习使用多维数组和交错数组，使用 Span 类型去访问数组，以及使用新的 index 和 range 运算符去访问数组。
+    \item 第七章，“委托，Lambda 表达式和事件”，包括了 .NET 对方法的指针，带有闭包的 lambda 表达式和.NET 事件。
+    \item 第八章，“集合”，深入不同类型的集合，比如列表、队列、栈、字典和不可变集合。本章还提供了决定在什么情况下使用哪个集合所需的信息。
+    \item 第九章，“语言集成查询”，介绍了 C\# 语言集成的查询功能，可以从你的集合中查询数据。你还将学到如何在查询中使用多核 CPU，还有表达式树背后用的是什么，当你使用 LINQ 通过 Entity Framework Core 去访问你的数据库时。
+    \item 第十章，“错误和异常”，包括了你应该如果解决错误，抛出并捕获异常，和当捕获它们时过滤异常。
+    \item 第十一章，“任务和异步编程”，展示了 C\# 关键字 async 和 await 的实际应用——不仅适用于基于任务的异步模式，还适用于异步流，这是 C\# 8 中的新特性。
+    \item 第十二章，“反射、元数据和源生成器”，
+    \item 第十三章，“托管与非托管内存”，这是第一部分的最后一章，它不仅展示了使用 IDisposable 接口伴随着 using 语句和新的 using 声明，还展示了使用 Span 类型与托管和非托管内存结合使用。你还可以了解到如何在 Windows 和 Linux 环境中使用 Platform Invoke。
+\end{itemize}
