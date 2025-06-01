@@ -1,11 +1,27 @@
-\documentclass[11pt,twoside,a4paper]{ctexbook}
+\documentclass[11pt,twoside]{ctexbook}
 \setcounter{tocdepth}{1}  % 1对应section级别的目录
 
-\usepackage{hyperref} % 书签
+\usepackage[paperwidth=18.73cm, paperheight=23.5cm, margin=2cm]{geometry}
+\usepackage[bookmarksnumbered=true]{hyperref} % 书签，书签中包含章节等的编号
 \usepackage{parskip} % 段落间垂直距离
 \usepackage{enumitem} % 用于自定义列表环境
 \usepackage{etoolbox} % 对环境进行钩子操作（verbatim）
 \usepackage{framed} % 矩形文字框
+\usepackage{inconsolata} % 支持加粗的等宽字体
+
+\makeatletter % 允许使用带 @ 的宏名（LaTeX 内部宏通常以 @ 开头
+% url可以在特殊符号，英文字母大小写，阿拉伯数字出断行
+\def\UrlAlphabet{
+      \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+      \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+      \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+      \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+      \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+      \do\Y\do\Z}
+\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+\g@addto@macro{\UrlBreaks}{\UrlDigits}
 
 \setlength{\parindent}{0pt} % 缩进为0
 \setlength{\parskip}{1em} % 设置段落之间的间距为1em
@@ -17,7 +33,7 @@
 
 \begin{document}
 
-% \tableofcontents % 目录
+\tableofcontents % 目录
 
 \frontmatter        % 切换为罗马数字页码 i, ii, iii...
 
@@ -26,21 +42,6 @@
 \mainmatter          % 开始正文，页码切换为阿拉伯数字
 
 \part{C\#语言}
-% \begin{itemize}
-%     \item 第一章：.NET 应用程序和工具
-%     \item 第二章：核心 C\#
-%     \item 第三章：类，记录，结构体和元组
-%     \item 第四章：用 C\# 面向对象编程
-%     \item 第五章：运算符与类型转换
-%     \item 第六章：数组
-%     \item 第七章：委托，Lambda 表达式和事件
-%     \item 第八章：集合
-%     \item 第九章：语言集成查询（LINQ）
-%     \item 第十章：错误和异常
-%     \item 第十一章：任务和异步编程
-%     \item 第十二章：反射，元数据和源生成器
-%     \item 第十三章：托管与非托管内存
-% \end{itemize}
 % \include{Part1/chapter1}
 % \include{Part1/chapter2}
 % \include{Part1/chapter3}
